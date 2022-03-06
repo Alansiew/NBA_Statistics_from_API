@@ -1,3 +1,4 @@
+Imie i nazwisko kandydata: Alan Siewiera
 1.You can open and run the scripts in python IDLE
 
 2. You can use cmd.exe:
