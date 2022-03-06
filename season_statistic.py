@@ -86,7 +86,7 @@ while True:
     if ask != "y":
         print("You chose to not save a file")
         second_ask = input("Press enter for close script ")
-        if second_ask:
+        if not second_ask or second_ask:
             break
     if ask == "y":
         saveFile()
