@@ -80,15 +80,15 @@ def saveFile(): # function save file in .csv format, if file exist it overwritin
 
 seasonStats()
 displayStats()
-ask=input("You want to save file? Y/N ")
+ask=input("\nYou want to save file? Y/N ")
 ask=ask.lower()
 while True:
     if ask != "y":
-        print("You chose to not save a file")
+        print("\nYou chose to not save a file")
         second_ask = input("Press enter to exit script ")
         if not second_ask or second_ask:
             break
     if ask == "y":
         saveFile()
-        print("The file is saved in: "+os.getcwd())
+        print("\nThe file is saved in: "+os.getcwd())
         break
