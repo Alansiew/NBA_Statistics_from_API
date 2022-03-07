@@ -43,7 +43,7 @@ def displatDictPlayer(): # searching from class Player and display the tallest a
         feet=int(split_height[0])*30.48 # 1 feet = 30.48cm
         inch=int(split_height[1])*2.54 # 1 inch = 2.54cm
         converted_result=feet+inch
-        print("The tallest player: " + player + " %.2f" % converted_result + " meters")
+        print("The tallest player: " + player + " %.2f" % (converted_result / 100) + " meters")
         print("The heaviest player: " + player2 + " %.2f" % (max_weight * 0.45359237) + " kg") # 1 pound = 0.45359237 kg
     else:
         print("The heaviest player: Not found")
