@@ -1,4 +1,3 @@
-Imie i nazwisko kandydata: Alan Siewiera
 First of all you need to have installed requests module, to do it use a cmd Path\easy_install.exe requests, where Path is your Python*\Scripts folder, if it was installed. (For example: C:\Python32\Scripts)
 or just pip3 install requests for python3
 1.You can open and run the scripts in python IDLE
